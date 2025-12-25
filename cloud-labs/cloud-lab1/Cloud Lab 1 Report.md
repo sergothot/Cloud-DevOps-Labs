@@ -55,20 +55,18 @@ ___
 - **Amazon GuardDuty** (Free/Paid Events Analyzed, Events Analyzed Bytes, Tax)
 - **Amazon Inspector** (Agent Assessments, Network Assessments)
 
-**Cloud Services/Application Hosting:**
+**Cloud Services:**
 - **AWS Amplify** (Data Transfer Out, Build Duration)
 
-**Backup & Recovery:**
+**Support:**
 - **AWS Backup** (Cold/Warm Storage, Restore Cold/Warm, Early Delete Cold)
 
 **Database:**
 - **Amazon DAX** (Node Usage)
 - **Amazon DynamoDB** (Read/Write Capacity Units, Read/Write Request Units, Streams Requests, Restore Data Size, Tax)
 
-**Cloud Services/Containers & Orchestration:**
+**Compute:**
 - **Amazon EKS** (Fargate vCPU-Hours, Fargate GB-Hours, EKS Cluster Hours, Tax)
-
-**AI/ML:**
 - **Amazon SageMaker** (Notebooks, Training, Processing, Batch Transform, Training Spot/Support, Hosting, Labeled Objects)
 
 ___
