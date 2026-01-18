@@ -1,0 +1,22 @@
+# ПЛОХОЙ докерфайл
+
+# Bad practice 1: использование неприкреплённого тега базового образа
+FROM python:latest
+
+# Bad practice 2: скачивание внешнего файла через ADD
+ADD https://www.iana.org/robots.txt /tmp/robots.txt
+
+# Bad practice 3: разделение apt-get update и install на разные слои
+RUN apt-get update
+RUN apt-get install -y curl
+
+# Bad practice 4: копирование всего контекста сборки
+COPY . /app
+
+WORKDIR /app
+
+# Bad practice 5: небезопасные права
+RUN chmod -R 777 /app
+
+# Bad practice 6: shell-form CMD
+CMD python app/server.py
